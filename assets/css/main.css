@@ -2273,11 +2273,19 @@
 			display: block;
 		}
 
+		.image iframe {
+			display: block;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+			.image.left iframe , .image.right iframe {
 				width: 100%;
 			}
 
@@ -2303,6 +2311,10 @@
 				width: 100%;
 			}
 
+			.image.fit iframe {
+				width: 100%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -2310,6 +2322,10 @@
 		}
 
 			.image.main img {
+				width: 100%;
+			}
+
+			.image.main iframe {
 				width: 100%;
 			}
 
@@ -2490,6 +2506,12 @@
 		border-top-color: rgba(144, 144, 144, 0.25);
 	}
 
+   ul.mylist {
+   }
+
+   ul.mylist li {
+      margin-left: 20px;
+   }
 /* Section/Article */
 
 	section.special, article.special {
